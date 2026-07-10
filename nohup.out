@@ -1,0 +1,180 @@
+
+Traceback (most recent call last):
+  File "main_deepm_v5.py", line 21, in <module>
+    import torch  # PyTorch 深度学习框架
+ModuleNotFoundError: No module named 'torch'
+Traceback (most recent call last):
+  File "main_deepm_v5.py", line 21, in <module>
+    import torch  # PyTorch 深度学习框架
+ModuleNotFoundError: No module named 'torch'
+Traceback (most recent call last):
+  File "main_deepm_v5.py", line 21, in <module>
+    import torch  # PyTorch 深度学习框架
+ModuleNotFoundError: No module named 'torch'
+run_mix_loss.sh: 280: a010_b001_xrec050_second_lambda_recon_rate002.log: not found
+Traceback (most recent call last):
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 576, in <module>
+    model, train_loss,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk = train_deepm(epoch,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk,model=model,optimizer=optimizer)
+                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 377, in train_deepm
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+RuntimeError: a Tensor with 784 elements cannot be converted to Scalar
+Traceback (most recent call last):
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 576, in <module>
+    model, train_loss,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk = train_deepm(epoch,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk,model=model,optimizer=optimizer)
+                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 377, in train_deepm
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+RuntimeError: a Tensor with 784 elements cannot be converted to Scalar
+Traceback (most recent call last):
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 576, in <module>
+    model, train_loss,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk = train_deepm(epoch,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk,model=model,optimizer=optimizer)
+                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 377, in train_deepm
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+RuntimeError: a Tensor with 784 elements cannot be converted to Scalar
+Traceback (most recent call last):
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 576, in <module>
+    model, train_loss,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk = train_deepm(epoch,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk,model=model,optimizer=optimizer)
+                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 377, in train_deepm
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+RuntimeError: a Tensor with 784 elements cannot be converted to Scalar
+Traceback (most recent call last):
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 576, in <module>
+    model, train_loss,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk = train_deepm(epoch,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk,model=model,optimizer=optimizer)
+                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 377, in train_deepm
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+RuntimeError: a Tensor with 784 elements cannot be converted to Scalar
+Traceback (most recent call last):
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 576, in <module>
+    model, train_loss,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk = train_deepm(epoch,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk,model=model,optimizer=optimizer)
+                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 377, in train_deepm
+    train_loss += loss.item()
+                  ^^^^^^^^^^^
+RuntimeError: a Tensor with 784 elements cannot be converted to Scalar
+Traceback (most recent call last):
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 576, in <module>
+    model, train_loss,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk = train_deepm(epoch,X_recon,aggre_bag_data_list, Y_P_train,Y_recon,X_topk_recon,topk_bag_data_list,Y_P_topk,Y_recon_topk,model=model,optimizer=optimizer)
+                                                                                                                             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/main_deepm_v5.py", line 343, in train_deepm
+    loss, new_partial_bag_lab, attention_score = model.calculate_objective_dual_deepm(args,data,partial_bag_lab, 
+                                                 ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/model_deepm_v5.py", line 2955, in calculate_objective_dual_deepm
+    new_prob, loss = self.full_dual_mix_loss_deepm(args,A, out_c, Y_prob, Y, X_recon_iter,aggre_data_iter,Y_P_train_iter,Y_recon_iter,
+                     ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/roger/codePlace/pythonCode/AIIA/pml_transformer/core/DEMIPLPLUS/model_deepm_v5.py", line 2929, in full_dual_mix_loss_deepm
+    loss = (torch.sum(entropy_Y)) / entropy_Y.size(0) + args.w_entropy_A * (torch.sum(entropy_A)) / entropy_A.size(0)+ args.mix_loss_rate * mix_loss+args.lambda_recon_rate *deepm_loss + args.mu * sp_loss + args.second_lambda_recon_rate * deepm_loss_topk + args.lambda_recon_X_rate * torch.sum(entropy_X) + args.lambda_recon_X_topk_rate *torch.sum(entropy_X_top) 
+                                                                                                                                                                                                                                                                                           ^^^^^^^^^^^^^^^^^^^^
+TypeError: sum(): argument 'input' (position 1) must be Tensor, not int
+usage: main_deepm_v5.py [-h] [--no-cuda] [--epochs N] [--lr LR] [--reg R]
+                        [--w_entropy_A L] [--seed S] [--data_path DATA_PATH]
+                        [--index INDEX] [--ds DS] [--ds_suffix DS_SUFFIX]
+                        [--bs_tr BS_TR] [--bs_te BS_TE] [--nr_fea NR_FEA]
+                        [--nr_class NR_CLASS] [--normalize NORMALIZE]
+                        [--epochs-m N] [--batch-size-m N] [--lr-m LR]
+                        [--momentum-m M] [--using_lp] [--using_prep]
+                        [--class_cons CLASS_CONS]
+                        [--weight_decay WEIGHT_DECAY] [--threshold THRESHOLD]
+                        [--hidden_size HIDDEN_SIZE] [--gpuid GPUID]
+                        [--tr_rate TR_RATE] [--mode MODE]
+                        [--eval_every EVAL_EVERY] [--gamma L]
+                        [--maxiter MAXITER] [--neighbors_num NEIGHBORS_NUM]
+                        [--no-verbose] [--alpha ALPHA] [--eta ETA]
+                        [--beta BETA] [--lambda_recon_rate L] [--mu L]
+                        [--mu2 L] [--L S] [--la L] [--mix_loss_rate L]
+                        [--isMixLoss ISMIXLOSS] [--current_epoch S]
+                        [--second_lambda_recon_rate L]
+                        [--lambda_recon_X_rate L]
+                        [--lambda_recon_X_topk_rate L]
+main_deepm_v5.py: error: unrecognized arguments: best
+rerun_no_label_graph.sh: 60: y_A: not found
+Traceback (most recent call last):
+  File "main_deepm_tk.py", line 21, in <module>
+    import torch  # PyTorch 深度学习框架
+ModuleNotFoundError: No module named 'torch'
+Traceback (most recent call last):
+  File "main_deepm_tk.py", line 21, in <module>
+    import torch  # PyTorch 深度学习框架
+ModuleNotFoundError: No module named 'torch'
+rerun_no_label_graph.sh: 113: lass: not found
+rerun_no_label_graph.sh: 133: --lambda_recon_rate: not found
+usage: main_deepm_v3.py [-h] [--no-cuda] [--epochs N] [--lr LR] [--reg R]
+                        [--w_entropy_A L] [--seed S] [--data_path DATA_PATH]
+                        [--index INDEX] [--ds DS] [--ds_suffix DS_SUFFIX]
+                        [--bs_tr BS_TR] [--bs_te BS_TE] [--nr_fea NR_FEA]
+                        [--nr_class NR_CLASS] [--normalize NORMALIZE]
+                        [--epochs-m N] [--batch-size-m N] [--lr-m LR]
+                        [--momentum-m M] [--using_lp] [--using_prep]
+                        [--class_cons CLASS_CONS]
+                        [--weight_decay WEIGHT_DECAY] [--threshold THRESHOLD]
+                        [--hidden_size HIDDEN_SIZE] [--gpuid GPUID]
+                        [--tr_rate TR_RATE] [--mode MODE]
+                        [--eval_every EVAL_EVERY] [--gamma L]
+                        [--maxiter MAXITER] [--neighbors_num NEIGHBORS_NUM]
+                        [--no-verbose] [--alpha ALPHA] [--eta ETA]
+                        [--beta BETA] [--lambda_recon_rate L] [--mu L]
+                        [--mu2 L] [--L S] [--la L] [--mix_loss_rate L]
+                        [--isMixLoss ISMIXLOSS] [--current_epoch S]
+main_deepm_v3.py: error: unrecognized arguments: --second_lambda_recon_rate 0.01
+usage: main_deepm_v3.py [-h] [--no-cuda] [--epochs N] [--lr LR] [--reg R]
+                        [--w_entropy_A L] [--seed S] [--data_path DATA_PATH]
+                        [--index INDEX] [--ds DS] [--ds_suffix DS_SUFFIX]
+                        [--bs_tr BS_TR] [--bs_te BS_TE] [--nr_fea NR_FEA]
+                        [--nr_class NR_CLASS] [--normalize NORMALIZE]
+                        [--epochs-m N] [--batch-size-m N] [--lr-m LR]
+                        [--momentum-m M] [--using_lp] [--using_prep]
+                        [--class_cons CLASS_CONS]
+                        [--weight_decay WEIGHT_DECAY] [--threshold THRESHOLD]
+                        [--hidden_size HIDDEN_SIZE] [--gpuid GPUID]
+                        [--tr_rate TR_RATE] [--mode MODE]
+                        [--eval_every EVAL_EVERY] [--gamma L]
+                        [--maxiter MAXITER] [--neighbors_num NEIGHBORS_NUM]
+                        [--no-verbose] [--alpha ALPHA] [--eta ETA]
+                        [--beta BETA] [--lambda_recon_rate L] [--mu L]
+                        [--mu2 L] [--L S] [--la L] [--mix_loss_rate L]
+                        [--isMixLoss ISMIXLOSS] [--current_epoch S]
+main_deepm_v3.py: error: unrecognized arguments: --second_lambda_recon_rate 0.01
+usage: main_deepm_v3.py [-h] [--no-cuda] [--epochs N] [--lr LR] [--reg R]
+                        [--w_entropy_A L] [--seed S] [--data_path DATA_PATH]
+                        [--index INDEX] [--ds DS] [--ds_suffix DS_SUFFIX]
+                        [--bs_tr BS_TR] [--bs_te BS_TE] [--nr_fea NR_FEA]
+                        [--nr_class NR_CLASS] [--normalize NORMALIZE]
+                        [--epochs-m N] [--batch-size-m N] [--lr-m LR]
+                        [--momentum-m M] [--using_lp] [--using_prep]
+                        [--class_cons CLASS_CONS]
+                        [--weight_decay WEIGHT_DECAY] [--threshold THRESHOLD]
+                        [--hidden_size HIDDEN_SIZE] [--gpuid GPUID]
+                        [--tr_rate TR_RATE] [--mode MODE]
+                        [--eval_every EVAL_EVERY] [--gamma L]
+                        [--maxiter MAXITER] [--neighbors_num NEIGHBORS_NUM]
+                        [--no-verbose] [--alpha ALPHA] [--eta ETA]
+                        [--beta BETA] [--lambda_recon_rate L] [--mu L]
+                        [--mu2 L] [--L S] [--la L] [--mix_loss_rate L]
+                        [--isMixLoss ISMIXLOSS] [--current_epoch S]
+main_deepm_v3.py: error: unrecognized arguments: --second_lambda_recon_rate 0.01
+usage: main_deepm_v3.py [-h] [--no-cuda] [--epochs N] [--lr LR] [--reg R]
+                        [--w_entropy_A L] [--seed S] [--data_path DATA_PATH]
+                        [--index INDEX] [--ds DS] [--ds_suffix DS_SUFFIX]
+                        [--bs_tr BS_TR] [--bs_te BS_TE] [--nr_fea NR_FEA]
+                        [--nr_class NR_CLASS] [--normalize NORMALIZE]
+                        [--epochs-m N] [--batch-size-m N] [--lr-m LR]
+                        [--momentum-m M] [--using_lp] [--using_prep]
+                        [--class_cons CLASS_CONS]
+                        [--weight_decay WEIGHT_DECAY] [--threshold THRESHOLD]
+                        [--hidden_size HIDDEN_SIZE] [--gpuid GPUID]
+                        [--tr_rate TR_RATE] [--mode MODE]
+                        [--eval_every EVAL_EVERY] [--gamma L]
+                        [--maxiter MAXITER] [--neighbors_num NEIGHBORS_NUM]
+                        [--no-verbose] [--alpha ALPHA] [--eta ETA]
+                        [--beta BETA] [--lambda_recon_rate L] [--mu L]
+                        [--mu2 L] [--L S] [--la L] [--mix_loss_rate L]
+                        [--isMixLoss ISMIXLOSS] [--current_epoch S]
+main_deepm_v3.py: error: unrecognized arguments: --second_lambda_recon_rate 0.01
