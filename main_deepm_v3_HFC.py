@@ -28,12 +28,10 @@ from torch.autograd import Variable  # 提供自动求导变量
 from sklearn.metrics import accuracy_score  # 用于计算准确率
 from scipy.special import softmax
 
-#from dataloader import *  # 从自定义的 dataloader 模块中导入所有内容
-from model_deepm_v3_bak import *  # 从自定义的 model 模块中导入所有内容
+from dataloader import *  # 从自定义的 dataloader 模块中导入所有内容
+from model_deepm_v3_HFC import *  # 从自定义的 model 模块中导入所有内容
 from utils import *  # 从自定义的 util 模块中导入所有内容
-from PLAIN.deep_manifold_gpu import *
-from core.DEMIPLPLUS.utils import *
-from core.DEMIPLPLUS.dataloader import *  # 从自定义的 dataloader 模块中导入所有内容
+from deep_manifold_gpu import *
 
 # mix-loss:CrossEntropyLoss: 加权交叉熵损失函数。
 #from weight_loss import CrossEntropyLoss as CE
@@ -53,7 +51,7 @@ parser.add_argument('--seed', type=int, default=123, metavar='S', help='random s
 parser.add_argument('--data_path', type=str, default='./data', help='dataset path数据集路径')
 parser.add_argument('--index', type=str, default='index', help='index path索引路径')
 parser.add_argument('--ds', type=str, default='MNIST_MIPL', help='MNIST_MIPL, FMNIST_MIPL, ...数据集名称 MNIST_MIPL, FMNIST_MIPL, ...')
-parser.add_argument('--ds_suffix', type=str, default= None, help='the specific type of the data set数据集的具体类型')
+parser.add_argument('--ds_suffix', type=str, default='1', help='the specific type of the data set数据集的具体类型')
 parser.add_argument('--bs_tr', type=int, default=1, help='batch size for training 训练时的 batch size')
 parser.add_argument('--bs_te', type=int, default=1, help='batch size for testing 测试时的 batch size')
 parser.add_argument('--nr_fea', type=int, default=784, help='feature dimension of an instance 实例的特征维度')
@@ -494,8 +492,10 @@ if __name__ == "__main__":
             #model = ResidualGatedAttention(args)
             #model = ResidualGatedAttention2(args)
             #model = ResidualGatedAttention2Plus(args)
-            #model = LossGatedAttention(args)
-            model = LossGatedPlusAttention(args)
+            # 论文 HFC-MIPL 适配：基于 LossGatedAttention 的 Mix-Loss 门控注意力模型
+            # 含 focusing 正则（entropy_Y + entropy_A + sp_loss）和 manifold 正则（deepm_loss），
+            # 支持 MNIST/FMNIST（CNN）以及 Birdsong/SIVAL/CRC（小数据 MLP）。
+            model = LossGatedAttention(args)
             #model = ResidualGatedAttention3(args)
             #model = ResidualGatedAttention4(args)
             #model = DeepManifoldContrastGatedAttention(args)
