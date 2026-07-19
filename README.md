@@ -30,7 +30,7 @@ The datasets used in this paper can be found on this [link](http://palm.seu.edu.
 To reproduce the results of MNIST_MIPL dataset in the paper, please run the following command:
 
 ```sh
-CUDA_VISIBLE_DEVICES=0 python main.py --ds MNIST_MIPL --ds_suffix 1 --lr 0.01 --epochs 100 --normalize false --w_entropy_A 0.001
+python main_hfc.py --ds MNIST_MIPL --ds_suffix 1 --lr 0.01 --epochs 100 --normalize false --w_entropy_A 0.001
 ```
 
 
