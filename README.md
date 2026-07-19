@@ -41,24 +41,24 @@ This package is only free for academic usage. Have fun!
 
 ## Parameter Settings
 
-| Dataset             | learning rate | gamma | mu   |
-| ------------------- | ------------- | ----- | ---- |
-| MNIST_MIPL (r=1)    | 0.05          | 0.1   | 1.0  |
-| MNIST_MIPL (r=2)    | 0.05          | 0.1   | 1.0  |
-| MNIST_MIPL (r=3)    | 0.05          | 0.1   | 0.1  |
-| FMNIST_MIPL (r=1)   | 0.01          | 0.5   | 1.0  |
-| FMNIST_MIPL (r=2)   | 0.01          | 0.5   | 1.0  |
-| FMNIST_MIPL (r=3)   | 0.05          | 0.5   | 1.0  |
-| Birdsong_MIPL (r=1) | 0.01          | 10.   | 10.  |
-| Birdsong_MIPL (r=2) | 0.01          | 10.   | 10.  |
-| Birdsong_MIPL (r=3) | 0.01          | 10.   | 10.  |
-| SIVAL_MIPL (r=1)    | 0.01          | 10.   | 10.  |
-| SIVAL_MIPL (r=2)    | 0.01          | 10.   | 10.  |
-| SIVAL_MIPL (r=3)    | 0.05          | 10.   | 10.  |
-| CRC-MIPL-Row        | 0.01          | 10.   | 10.  |
-| CRC-MIPL-SBN        | 0.01          | 10.   | 10.  |
-| CRC-MIPL-KMeansSeg  | 0.01          | 10.   | 10.  |
-| CRC-MIPL-SIFT       | 0.01          | 10.   | 10.  |
+| Dataset             | learning rate | 
+| ------------------- | ------------- | 
+| MNIST_MIPL (r=1)    | 0.05          | 
+| MNIST_MIPL (r=2)    | 0.05          | 
+| MNIST_MIPL (r=3)    | 0.05          | 
+| FMNIST_MIPL (r=1)   | 0.01          | 
+| FMNIST_MIPL (r=2)   | 0.01          | 
+| FMNIST_MIPL (r=3)   | 0.05          | 
+| Birdsong_MIPL (r=1) | 0.01          | 
+| Birdsong_MIPL (r=2) | 0.01          | 
+| Birdsong_MIPL (r=3) | 0.01          | 
+| SIVAL_MIPL (r=1)    | 0.01          | 
+| SIVAL_MIPL (r=2)    | 0.01          | 
+| SIVAL_MIPL (r=3)    | 0.05          | 
+| CRC-MIPL-Row        | 0.01          | 
+| CRC-MIPL-SBN        | 0.01          | 
+| CRC-MIPL-KMeansSeg  | 0.01          | 
+| CRC-MIPL-SIFT       | 0.01          | 
 
 
 
